@@ -1,0 +1,40 @@
+.body {
+  background: #7C252D;
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: #FFAC6A;
+  min-height: 10%;
+  border: none;
+}
+
+.row{
+  margin-right: 0px !important;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.logo-img {
+  width: 50%;
+}
+
+.cabecera {
+  padding-top: 50px;
+}
+
+.redes-sociales {
+  margin-top: 30px;
+}
+
+@media (max-width: 770px) {
+  
+}
