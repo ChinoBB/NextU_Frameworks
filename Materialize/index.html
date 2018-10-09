@@ -12,12 +12,12 @@
 </head>
 <body>
 
-  <div class="row">
-    <div class="col l4 offset-l1">
+  <div class="row blue-grey">
+    <div class="col s12 m4 l4 offset-l1 logo">
       <img src="img/logo.png" class="img-responsive">
-      <span class="nav-title">Creando mi propio camino</span>
+      <span class="nav-title white-text">Creando mi propio camino</span>
     </div>
-    <div class="col l7 right-align">
+    <div class="col s12 m8 l7 right-align menu">
       <a class="waves-effect waves-light btn-large"><i class="material-icons left">apps</i>Inicio</a>
       <a class="waves-effect waves-light btn-large"><i class="material-icons left">book</i>Bitácora</a>
       <a class="waves-effect waves-light btn-large"><i class="material-icons left">border_color</i>Recomendaciones</a>
@@ -26,22 +26,28 @@
   </div>
 
   <div class="row">
-    <div class="s2 m2 l1 col">
-      <div class="center-align" style="border: none;">
-        <a class="#">
+    <div class="s12 m2 l1 col hide-on-small-only">
+      <div class="center-align">
+        <a href="#">
           <img src="img/fb.png" alt="" class="circle">
         </a>
-        <a class="#">
+        <a href="#">
           <img src="img/ig.png" alt="" class="circle">
         </a>
-        <a class="#">
+        <a href="#">
           <img src="img/tt.png" alt="" class="circle">
+        </a>
+        <a href="#">
+          <img src="img/yt.png" alt="" class="circle">
+        </a>
+        <a href="#">
+          <img src="img/pt.jpeg" alt="" class="circle">
         </a>
       </div>
     </div>
-    <div class="s10 m10 l11 col">
+    <div class="s12 m10 l11 col">
       <div class="row">
-        <div class="l4 col">
+        <div class="l4 col center-align">
           <img src="img/img1.jpg" class="responsive-img z-depth-1 hoverable">
           <img src="img/img2.jpg" class="responsive-img z-depth-1 hoverable">
         </div>
@@ -57,46 +63,125 @@
   </div>
 
   <div class="row white-text">
-    <div class="l9 col">
+
+    <div class="s12 m9 l9 col">
       <div class="row hoverable blue-grey">
-        <img src="img/img6.jpg" class="responsive-img" width="50%">
-        <h3>Titulo</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div class="l12 col">
+          <h3>Vacaciones en Londres</h3>
+          <div class="l5 col">
+            <img src="img/img6.jpg" class="responsive-img left">
+          </div>
+          <div>
+            <a class="waves-effect waves-light btn disabled"><i class="material-icons left">date_range</i>09/10/2018</a>
+            <a class="waves-effect waves-light btn disabled"><i class="material-icons left">location_on</i>Lima, Peru</a>
+          </div>
+          <p class="flow-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="flow-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
       </div>
       <div class="row blue-grey">
-        <div class="input-field col s6">
-          <i class="material-icons prefix">perm_identity</i>
-          <input type="text" name="nombre" id="nombre" class="validate">
-          <label for="nombre">Nombre</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix">email</i>
-          <input type="email" name="email" id="email" class="validate">
-          <label for="email" data-success="Correcto" data-error="Debes completar este campo">E-Mail</label>
-        </div>
-        <div class="row">
-          <div class="input-field col s12">
-            <textarea id="comentario" class="materialize-textarea"></textarea>
-            <label for="comentario">Comentario</label>
-          </div>
-          <div class="input-field col s12">
-            <div class="btn">
-              Enviar
+        <div class="col s11 l12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input type="text" name="nombre" id="nombre" class="validate">
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" id="email" class="validate">
+              <label for="email" data-success="Correcto" data-error="Debes completar este campo">E-Mail</label>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="comentario" class="materialize-textarea"></textarea>
+                <label for="comentario">Comentario</label>
+              </div>
+              <div class="input-field col s12">
+                <div class="btn">
+                  Enviar
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row hoverable blue-grey">
+        <div class="l12 col">
+          <h3>Vacaciones en Filipinas</h3>
+          <div class="s12 l5 col">
+            <img src="img/filipinas.jpeg" class="responsive-img left">
+          </div>
+          <div>
+            <a class="waves-effect waves-light btn disabled"><i class="material-icons left">date_range</i>08/10/2018</a>
+            <a class="waves-effect waves-light btn disabled"><i class="material-icons left">location_on</i>Lima, Peru</a>
+          </div>
+          <p class="flow-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <p class="flow-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+
+      <div class="row blue-grey">
+        <div class="col s11 l12">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input type="text" name="nombre" id="nombre" class="validate">
+              <label for="nombre">Nombre</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input type="email" name="email" id="email" class="validate">
+              <label for="email" data-success="Correcto" data-error="Debes completar este campo">E-Mail</label>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="comentario" class="materialize-textarea"></textarea>
+                <label for="comentario">Comentario</label>
+              </div>
+              <div class="input-field col s12">
+                <div class="btn">
+                  Enviar
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
-
-    <div class="l3 col blue-grey">
+    <div class="s12 m3 l3 col">
+      <div class="blue-grey">
       <img src="img/usuario.png" class="circle responsive-img">
       <hr>
       <h3>Perfil del autor</h3>
@@ -106,7 +191,9 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
+
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
